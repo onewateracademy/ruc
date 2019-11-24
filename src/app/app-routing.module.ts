@@ -21,7 +21,7 @@ const routes: Routes = [
     loadChildren: './about/about.module#AboutModule'
   },
   {
-    path:'',
+    path:'**',
     component:HomepageComponent
   }
 ];

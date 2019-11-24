@@ -31,8 +31,10 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": ["./node_modules/jquery/dist/jquery.js",
-              "./node_modules/masonry-layout/dist/masonry.pkgd.js"]
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/masonry-layout/dist/masonry.pkgd.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,8 +99,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [
-            ]
+            "scripts": []
           }
         },
         "lint": {
@@ -125,8 +126,13 @@
               "devServerTarget": "RUC:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "RUC"
 }
