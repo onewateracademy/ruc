@@ -29,6 +29,14 @@ const routes: Routes = [
     loadChildren: './events/events.module#EventsModule'
   },
   {
+    path: 'joinus',
+    loadChildren: './join-us/join-us.module#JoinUsModule'
+  },
+  {
+    path: 'resources',
+    loadChildren: './resources/resources.module#ResourcesModule'
+  },
+  {
     path:'**',
     component:HomepageComponent
   }

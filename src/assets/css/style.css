@@ -3009,7 +3009,7 @@ ul {
   right: 0px;
   top: 0px;
   width: 300px;
-  background-color: #2c2e31;
+  background-color: #00234e;
   padding: 35px 22px;
   box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.5);
   margin: 10px;
@@ -5702,11 +5702,12 @@ h6 {
 
 /* line 4, E:/166 Basketball/Basketball_Template/sass/_breadcrumb.scss */
 .breadcrumb {
-  background-color:rgb(8, 77, 155) !important;
+  background-color:#00234e !important;
   position: relative;
   z-index: 1;
   text-align: left;
   margin-bottom: 0px;
+  border-radius: 0 !important;
 }
 
 /* line 9, E:/166 Basketball/Basketball_Template/sass/_breadcrumb.scss */
@@ -5737,7 +5738,7 @@ h6 {
   margin-top: -150px;
   margin-left: -300px;
   transform: rotate(4deg);
-  background: rgb(8, 77, 155);
+  background: #00234e;
 }
 
 @media (max-width: 576px) {

@@ -1,0 +1,20 @@
+.single-feature{
+    height: auto !important;
+    flex-direction: column !important;
+   
+    img{
+        width:30%;
+        margin: 24px auto;
+    }
+    h3{
+        font-size: 18px;
+        font-family: Montserrat, 'san-serif';
+        line-height: 1.7;
+    }
+    .btn_2{
+        margin-top: 20px !important;
+    }
+}
+.vision,.vision::after{
+    background: transparent !important;
+}
