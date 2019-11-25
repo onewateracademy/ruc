@@ -1,0 +1,46 @@
+
+.banner_part{
+    min-height: 80vh !important;
+    background: linear-gradient(82deg, rgba(0,0,0,0.8603816526610644) 28%, rgba(0,0,0,0.7511379551820728) 55%, rgba(0,0,0,0.4682247899159664) 100%)
+    , url(/assets/img/techtalks.jfif);
+  background-size:  cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+.banner_part .banner_text p {
+    color: #fff;
+
+}
+.about_part1 img{
+    width: 80%;
+    margin: auto;
+}
+.about_part1:after {
+    right: 0 !important;
+    left: auto !important;
+    background: #f4ebe1 !important;
+    width:50% !important;
+}
+
+.brainstrom{
+    margin-top: 85px!important;
+}
+.upcoming_event{
+    padding-bottom: 100px;
+    
+}
+
+.upcoming_event .upcoming_event_1 .upcoming_event_text{
+    box-shadow: none !important;
+}
+.upcoming_event:after{
+    background-color: #eaf4e1;
+}
+.event-desc  {
+    background: transparent !important;
+   
+    p,li,h3{
+        color: #000 !important;
+        margin: 10px;
+    }
+}

@@ -21,6 +21,14 @@ const routes: Routes = [
     loadChildren: './about/about.module#AboutModule'
   },
   {
+    path: 'ructalks',
+    loadChildren: './ruc-talks/ruc-talks.module#RucTalksModule'
+  },
+  {
+    path: 'events',
+    loadChildren: './events/events.module#EventsModule'
+  },
+  {
     path:'**',
     component:HomepageComponent
   }
