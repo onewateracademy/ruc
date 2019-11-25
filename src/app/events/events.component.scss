@@ -19,20 +19,25 @@ h2 span{
 .vision,.vision::after{
     background: transparent !important;
 }
+
 .single-feature{
     height: auto !important;
+    border-bottom: none;
    
     img{
         width:120px;
         margin: 0 24px;
     }
     h3{
-        font-size: 20px;
+        font-size: 22px;
         font-family: Montserrat, 'san-serif';
+        font-weight: 600;
     }
-    .btn_2{
-        margin-top: 20px !important;
+    p{
+        font-size: 14px;
     }
+ 
+
 }
 
 .colored-section{
@@ -48,4 +53,36 @@ h2 span{
 
 .programs{
     margin-top: 0 !important;
+
+    .col-xl-6{
+        border-bottom: 1px solid #000;
+
+        a{
+       
+            float: right !important;
+           
+        }
+        .btn_2{
+            margin-top: 0px !important;
+        }
+    }
+}
+
+.iframe-container{
+  z-index: 2;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+
+  iframe{
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
 }

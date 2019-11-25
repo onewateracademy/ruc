@@ -233,6 +233,11 @@ a:focus, .button:focus, button:focus, .btn:focus {
   font-size: 50px;
   font-weight: 500;
   margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.vision-page .single-feature:hover i{
+  text-decoration: none !important;
+  transform:scale(1.05) !important;
 }
 .vision .single-feature h1{
   font-size: 110px;
