@@ -110,6 +110,11 @@ h2 {
   font-weight: 700;
 }
 
+button{
+  outline: none;
+  border: none;
+}
+
 @media (max-width: 576px) {
   /* line 61, E:/166 Basketball/Basketball_Template/sass/_common.scss */
   h2 {
@@ -169,7 +174,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
 }
 
 /* line 109, E:/166 Basketball/Basketball_Template/sass/_common.scss */
-.section_tittle {
+.section_title {
   margin: 40px 0;
 }
 .title-section{
@@ -178,13 +183,15 @@ a:focus, .button:focus, button:focus, .btn:focus {
 .feature-grid{
   padding: 10px 0;
 }
-.single-feature{
+
+
+/* .single-feature{
   height: 100px;
  display: flex;
  align-items: center;
  margin: 30px 0;
  padding-bottom: 0;
- /* background: rgba(255, 248, 220, 0.363); */
+
 }
 .single-feature p {
   font-size: 22px;
@@ -200,13 +207,12 @@ a:focus, .button:focus, button:focus, .btn:focus {
  width: 100px;
   background: rgb(222, 239, 247);
 
-}
-.vision{
+} */
+/* .vision{
   padding:70px 0 ;
   background: #e1eef4;
 }
 .vision .single-feature{
-  margin-bottom: 0 !important;
   min-height: 250px !important;
   border-bottom: rgba(0,0,0,0.5) 1px solid;
   align-items: flex-start;
@@ -284,7 +290,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
   transform: rotate(-20deg);
   background: #e9fff6 !important;
 }
- 
+  */
 .single-feature-icon img{
   width: 50%;
 }
@@ -2369,7 +2375,7 @@ ul {
 /* line 264, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
 .menu_fixed {
   position: fixed;
-  z-index: 9999 !important;
+  z-index: 1000 !important;
   width: 100%;
   background-color: #fff;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
@@ -2876,7 +2882,7 @@ ul {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 106, E:/166 Basketball/Basketball_Template/sass/_about.scss */
   .recreational_part {
-    margin-bottom: 70px;
+    margin-bottom: 55px;
   }
 }
 
@@ -4356,6 +4362,7 @@ ul li {
   max-width: 500px;
   width: 100%;
 }
+
 
 /* line 99, E:/166 Basketball/Basketball_Template/sass/_contact.scss */
 .modal-message .modal-dialog .modal-content .modal-header {

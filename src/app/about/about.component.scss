@@ -1,0 +1,41 @@
+.team_section
+{
+    padding: 60px 0;
+}
+.team_member{
+    margin-bottom: 2rem;
+}
+.member_img{
+    position: relative;
+    margin: 0 8px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position:top center;
+    
+}
+
+.member_img::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    z-index: 2;
+    right: -10px;
+    background-color: #e1f4e7;
+}
+
+.member_details{
+    h2{
+        font-weight: 700;
+        margin-top: 2rem;
+    }
+
+    h6{
+        margin-top: 4rem;
+        font-weight: 500;
+        color: #777;
+    }
+   
+}
