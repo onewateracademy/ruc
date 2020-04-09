@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800|Playfair+Display:400,400i,900|Montserrat:300,400,500");
 /* line 3, E:/166 Basketball/Basketball_Template/sass/_common.scss */
 body {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Montserrat", sans-serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -11,7 +11,8 @@ body {
 
 /* line 9, E:/166 Basketball/Basketball_Template/sass/_common.scss */
 section {
-  overflow: hidden !important;
+  /* overflow: hidden; */
+  position: relative;
 }
 
 /* line 12, E:/166 Basketball/Basketball_Template/sass/_common.scss */
@@ -82,22 +83,21 @@ a:hover, a :hover {
 h1, h2, h3, h4, h5, h6 {
   color: #2a2a2a;
  
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
 }
 h2{
-  font-size: 38px !important;
+  font-size: 38px;
 }
 h4{
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  text-decoration: underline;
 }
 /* line 52, E:/166 Basketball/Basketball_Template/sass/_common.scss */
 p {
   font-family: "Montserrat", sans-serif;
   line-height: 1.65;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 400;
   margin-bottom: 0px;
   color: #000;
 }
@@ -307,8 +307,9 @@ a:focus, .button:focus, button:focus, .btn:focus {
 }
 
 .big-heading{
-  font-size: 70px;
-  font-weight: 600;
+  font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -0.2rem;
 }
 .brainstrom::after {
   right: 0;
@@ -548,30 +549,32 @@ ul {
 .btn_1 {
   display: inline-block;
   padding: 13px 35px;
-  border: 2px solid transparent;
-  background-color:#8cbd3a;
-  font-size: 12px;
-  color: #fff;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  text-transform: uppercase;
-  margin-top: 40px;
+  font-size: 1rem;
+    color: #fff;
+    border-radius: 100px;
+    transition: 0.5s;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 /* line 34, E:/166 Basketball/Basketball_Template/sass/_button.scss */
-.btn_1:hover {
-  border: 2px solid rgb(2, 67, 87);
-  background-color: #fff;
-  color: rgb(2, 67, 87);
+.btn_1:hover ::after {
+    right: 0px;
+    width: 55%;
 }
 
 /* line 40, E:/166 Basketball/Basketball_Template/sass/_button.scss */
 .btn_2 {
   display: inline-block;
   padding: 13px 47px;
-  background-color: rgba(2, 142, 185);
-  font-size: 12px;
+  background-color: #222;
+  font-size: 1rem;
   color: #fff;
+  font-weight: 700;
+  border-radius: 100px;
   text-transform: uppercase;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -595,9 +598,9 @@ ul {
   padding: 12px 54px;
   border-radius: 4px;
   color: #fff;
-  border: 1px solid #fdcb9e;
+  border: none;
   text-transform: uppercase;
-  background-color: rgb(2, 67, 87);
+  background-color: rgb(22, 14, 120);
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2419,14 +2422,12 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
 .banner_part {
-  height: 800px;
+  height: 100vh;
+  overflow: hidden;
   display: flex;
   align-items: center;
   position: relative;
-  background-image: url("../img/banner_bg.png");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 }
 
 @media (max-width: 576px) {
@@ -2461,6 +2462,7 @@ ul {
   display: table;
   width: 100%;
   height: 100%;
+  padding-left: 4vw;
   position: relative;
   z-index: 99;
   margin-top: 60px;
@@ -2486,6 +2488,7 @@ ul {
   /* line 23, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
   .banner_part .banner_text {
     text-align: center;
+    
     padding-top: 0px;
   }
 }
@@ -2507,13 +2510,13 @@ ul {
 
 /* line 53, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
 .banner_part .banner_text h1 {
-  font-size: 60px;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  line-height: 1.1;
+  color: #161491;
+  font-family: "Montserrat", sans-serif ;
   font-weight: 800;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.15rem;
+  
   margin-bottom: 25px;
 }
 
@@ -2561,9 +2564,12 @@ ul {
 /* line 86, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
 .banner_part .banner_text p {
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  color:rgb(2, 67, 87);
-  font-weight: 600;
+  color: rgb(22, 20, 145);
+  max-width: 400px;
+  
+  font-weight: 500;
+  opacity: 0.8;
+  letter-spacing: -0.03rem;
 }
 
 /* line 93, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
@@ -2583,7 +2589,7 @@ ul {
   top: 8px;
   width: 55%;
   height: 129%;
-  background-color:rgb(2, 67, 87);
+  background-color:#8cbd3a;
   z-index: -1;
   transform: rotate(121deg);
 }
@@ -2591,8 +2597,9 @@ ul {
 /* line 110, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
 .banner_part .banner_text .btn_1 span {
   position: absolute;
-  right: 15px;
-  top: 15px;
+  right: 20px;
+  top: 18px;
+  font-weight: 700;
 }
 
 /* line 118, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
@@ -2687,7 +2694,7 @@ ul {
 .about_part {
   position: relative;
   z-index: 1;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 @media (max-width: 576px) {
@@ -2722,16 +2729,42 @@ ul {
 }
 
 /* line 21, E:/166 Basketball/Basketball_Template/sass/_about.scss */
-.about_part:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 50%;
-  background-color: #e1eef4;
-  z-index: -1;
+.purple_bg_light{
+  background-color: #05017c08;
 }
+.img_bg_right{
+  position: relative;
+  text-align: right;
+}
+.img_bg_right:after {
+  position: absolute;
+    content: "";
+    right: -100px;
+    top: 40px;
+    border-radius: 46px;
+    height: 150px;
+    width: 150px;
+    transform: rotate(30deg);
+    background-color: #e1eef4;
+    z-index: -1;
+}
+.img_bg_left{
+  position: relative;
+  text-align: left;
+}
+.img_bg_left:after {
+  position: absolute;
+    content: "";
+    left: -100px;
+    top: 40px;
+    transform: rotate(30deg);
+    border-radius: 46px;
+    height: 150px;
+    width: 150px;
+    background-color: #e1f4ed;
+    z-index: -1;
+}
+
 
 @media (max-width: 576px) {
   /* line 21, E:/166 Basketball/Basketball_Template/sass/_about.scss */
@@ -2755,6 +2788,9 @@ ul {
 /* line 45, E:/166 Basketball/Basketball_Template/sass/_about.scss */
 .about_part .about_img img {
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
 }
 
 @media (max-width: 576px) {
@@ -2827,8 +2863,10 @@ ul {
 /* line 83, E:/166 Basketball/Basketball_Template/sass/_about.scss */
 .about_part .about_text h2 {
   line-height: 1.25;
-  margin-bottom: 28px;
-  font-weight: 600;
+  font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 28px;
+    letter-spacing: -0.1rem;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3760,13 +3798,14 @@ background: rgb(137, 192, 255);
 /* line 5, E:/166 Basketball/Basketball_Template/sass/_blog_part.scss */
 .blog_part:after {
   position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 46%;
-  content: "";
-  background-color: #e1eef4;
-  z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 53%;
+    content: "";
+    /* padding: 1rem; */
+    background-color: #87d68530;
+    z-index: -1;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
