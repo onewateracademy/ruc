@@ -13,6 +13,7 @@ body {
 section {
   /* overflow: hidden; */
   position: relative;
+  padding: 4rem 0;
 }
 
 /* line 12, E:/166 Basketball/Basketball_Template/sass/_common.scss */
@@ -551,13 +552,14 @@ ul {
   padding: 13px 35px;
   font-size: 1rem;
     color: #fff;
+    background-color: #101010;
     border-radius: 100px;
     transition: 0.5s;
     font-weight: 700;
     text-transform: capitalize;
     margin-top: 1.5rem;
     text-align: center;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); */
 }
 
 /* line 34, E:/166 Basketball/Basketball_Template/sass/_button.scss */
@@ -4164,7 +4166,7 @@ background: rgb(137, 192, 255);
 /**************** copyright part css start ****************/
 /* line 2, E:/166 Basketball/Basketball_Template/sass/_copyright_part.scss */
 .copyright_part {
-  background-color: #00234e;
+  background-color: #161491;
   padding: 26px 0px;
 }
 
@@ -5827,7 +5829,8 @@ h6 {
 
 /* line 2, E:/166 Basketball/Basketball_Template/sass/_footer.scss */
 .footer-area {
-  background-color: #e1eef4;
+  background-color: #f3f1ff;
+    border-top-left-radius: 10rem;
 }
 
 @media (max-width: 991px) {
@@ -5846,17 +5849,20 @@ h6 {
 
 /* line 13, E:/166 Basketball/Basketball_Template/sass/_footer.scss */
 .footer-area .single-footer-widget p {
-  color: #7b838a;
+  color: #161491;
+    transition: 0.5s;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.03rem;
 }
 
 /* line 17, E:/166 Basketball/Basketball_Template/sass/_footer.scss */
 .footer-area .single-footer-widget h4 {
   color: #2a2a2a;
-  font-style: inherit;
-  font-family: "Playfair Display", serif;
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 1024px) {
@@ -5880,9 +5886,11 @@ h6 {
 
 /* line 33, E:/166 Basketball/Basketball_Template/sass/_footer.scss */
 .footer-area .single-footer-widget ul li a {
-  color: #8a8a8a;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  color: #161491;
+    transition: 0.5s;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.03rem;
 }
 
 /* line 36, E:/166 Basketball/Basketball_Template/sass/_footer.scss */

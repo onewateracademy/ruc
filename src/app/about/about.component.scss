@@ -1,41 +1,302 @@
-.team_section
-{
-    padding: 60px 0;
-}
-.team_member{
-    margin-bottom: 2rem;
-}
-.member_img{
-    position: relative;
-    margin: 0 8px;
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-    object-position:top center;
-    
-}
+.header_content {
+  min-height: 80vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 
-.member_img::after{
-    content: "";
+  .header_img {
     position: absolute;
+    top: 0;
+    right: 0rem;
+    width: 75%;
     height: 100%;
-    width: 100%;
-    top: 10px;
-    z-index: 2;
-    right: -10px;
-    background-color: #e1f4e7;
+    background-image: linear-gradient(to right, #0e0c87d5, #0e0c8793),
+      url(/assets/img/circle_bg1.png);
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 15rem;
+    border-top-left-radius: 0;
+  }
+
+  .big_heading {
+    margin-bottom: 4rem;
+    margin-right: 4vw;
+    font-size: 5rem;
+    letter-spacing: -0.15rem;
+    color: #fff;
+  }
+}
+.grid_section{
+    position: relative;
+    margin: 0;
+    padding:0 0;
+  }
+.heading_block{
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+  .content_block{
+    width: 75%;
+    margin-left: 25%;
+    padding:10rem 6rem 6rem 2rem;
+  }
+.heading_block_left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 25%;
+    padding: 5rem 0 3rem;
+    background-image:linear-gradient(to bottom right, #0e0c87d5, #0e0c8793) , url(/assets/img/heading_bg2.png);
+    border-top-right-radius: 15rem;
+  }
+
+.big_heading {
+  font-weight: 800;
+  color: #160e78;
+  position: relative;
+  z-index: 10;
+  font-size: 4rem;
+  letter-spacing: -0.18rem;
 }
 
-.member_details{
-    h2{
-        font-weight: 700;
-        margin-top: 2rem;
-    }
+.circle_bg {
+  position: absolute;
+  background-image: linear-gradient(to bottom right, #0e0c87d5, #0e0c8793),
+    url(/assets/img/circle_bg1.png);
+  background-size: cover;
+  border-radius: 50%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.circle_bg1 {
+  width: 14rem;
+  height: 14rem;
+  top: 10%;
+  left: 15%;
+}
 
-    h6{
-        margin-top: 4rem;
-        font-weight: 500;
-        color: #777;
+.visioning_section{
+    background-color: #f3f1ff;
+    padding: 7rem 0;
+    .big_heading{
+        font-size: 3.2rem;
     }
-   
+    p{
+        text-align: justify;
+    font-weight: 600;
+    /* opacity: 0.5; */
+    color: #160e78;
+    font-size: 1.2rem;
+    max-width:450px;
+    letter-spacing: -0.02rem;
+    margin-top: 2rem;
+    }
+}
+
+.summit_img{
+    width: 90%;
+}
+
+.two_grid{
+    padding:6rem 0;
+}
+
+.grid_box{
+    margin:1rem 0;
+    color: #fff;
+    background-size: cover;
+    padding: 6rem 2rem;
+    height: 75vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+    .big_heading{
+        color: #fff;
+        font-weight: 700;
+        font-size: 2.8rem;
+        text-align:center;
+        letter-spacing: -0.08rem;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+    }
+    .content{
+        text-align: justify;
+        line-height: 1.8;
+        font-size: 0.9rem;
+        color: #fff;
+    }
+}
+
+.mission_box{
+    background-image: linear-gradient(to bottom right, #0e0c87d5, #0e0c8793),
+    url(/assets/img/header_bg1.jpg);
+    border-top-left-radius: 8rem;
+}   
+
+
+.vision_box{
+    background-image: linear-gradient(to bottom right, #0e0c87d5, #0e0c8793),
+    url(/assets/img/vision_box_img.jpg);
+    border-bottom-right-radius: 8rem;
+}   
+
+.grid_circle{
+    position: absolute;
+    background-image:linear-gradient(to bottom right, #0e0c87d5, #0e0c8793) , url(/assets/img/circle_img.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.grid_circle_1{
+   top: -4rem;
+   left: -4rem;
+}
+
+.grid_circle_2{
+    bottom: -4rem;
+    right: -4rem;
+ }
+
+ .meet_our_team{
+   margin: 6rem 0;
+   min-height: 75vh;
+ }
+.team_img{
+  width: 80%;
+  transform: translateY(50%);
+}
+ 
+.team_rect{
+  position: absolute;
+  top: 0;
+  right: 0rem;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-image: linear-gradient(to right, #0e0c87d5, #0e0c8793),
+    url(/assets/img/circle_bg1.png);
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 6rem;
+  border-top-left-radius: 6rem;
+
+
+  .big_heading{
+    margin-bottom: 4rem;
+    margin-right: 4vw;
+    font-size: 5rem;
+    letter-spacing: -0.15rem;
+    color: #fff;
+  }
+}
+
+
+.team_section {
+  padding: 60px 0;
+}
+.team_member {
+  margin-bottom: 2rem;
+    background: #f7f5ff;
+    border-radius: 1rem;
+    border: 1.2px solid #160e788f;
+    overflow: hidden;
+}
+.member_img {
+  position: relative;
+  min-height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top center;
+  object-position: center;
+}
+
+.member_img::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 10px;
+  z-index: 2;
+  right: -10px;
+  background-color: #e1f4e7;
+}
+
+.member_details {
+  h2 {
+    font-weight: 800;
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+    letter-spacing: -0.06rem;
+    color: #160e78;
+  }
+
+  p{
+    font-size: 1rem;
+    color: #212121;
+    letter-spacing: -0.04rem;
+    font-weight: 700;
+  }
+  h6 {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #160e78;
+    opacity: 0.6;
+    letter-spacing: -0.02rem;
+  }
+}
+
+
+.executives, .board_of_directors{
+  background-color: #f3f1ff;
+}
+
+.executives{
+  border-top-left-radius: 8em;
+  padding-top: 6rem;
+  margin-top: 8rem;
+}
+
+.board_of_directors{
+  padding-top: 1rem;
+  margin-bottom: 6rem;
+  border-bottom-right-radius: 8rem;
+}
+
+.board_of_directors{
+  .team_member{
+    margin-bottom: 1rem;
+  }
+  .member_img{
+    max-height: 180px;
+    object-position: top center;
+  }
+  .member_details{
+    padding: 1rem;
+
+    h2{
+      font-size: 1.5rem;
+      letter-spacing: -0.04rem;
+    }
+    h6{
+      font-size: 1rem;
+    }
+  }
 }
