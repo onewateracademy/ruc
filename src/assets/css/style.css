@@ -2244,17 +2244,17 @@ ul {
   }
   /* line 135, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
   .main_menu .navbar-collapse {
-    position: absolute;
-    left: 0;
-    top: 78px;
+    position: fixed;
+    left: 2vw;
+    top: 9rem;
     z-index: 99;
-    width: 100%;
+    width: 96vw;
     background-color: #fff;
   }
-  /* line 143, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
+  /* line 223, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
   .main_menu .nav-item {
     padding: 5px 10px 5px 15px;
-    background-color: rgb(2, 67, 87);
+    background-color: rgb(252, 252, 252);
   }
   /* line 147, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
   .main_menu .navbar-nav .nav-link:hover {
