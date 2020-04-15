@@ -39,6 +39,7 @@ input:hover, input:focus {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 21, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  
   .section_padding {
     padding: 80px 0px;
   }
@@ -46,6 +47,9 @@ input:hover, input:focus {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 21, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  html{
+    font-size: 12px;
+  }
   .section_padding {
     padding: 70px 0px;
   }
@@ -53,6 +57,9 @@ input:hover, input:focus {
 
 @media (max-width: 576px) {
   /* line 21, E:/166 Basketball/Basketball_Template/sass/_common.scss */
+  html{
+    font-size: 10px;
+  }
   .section_padding {
     padding: 70px 0px;
   }
@@ -2327,17 +2334,17 @@ ul {
   }
   /* line 215, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
   .main_menu .navbar-collapse {
-    position: absolute;
-    left: 0;
-    top: 78px;
+    position: fixed;
+    left: 2vw;
+    top: 9rem;
     z-index: 99;
-    width: 100%;
+    width: 96vw;
     background-color: #fff;
   }
   /* line 223, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
   .main_menu .nav-item {
     padding: 5px 10px 5px 15px;
-    background-color: rgb(2, 67, 87);
+    background-color: rgb(252, 252, 252);
   }
   /* line 227, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
   .main_menu .navbar-nav .nav-link:hover {
@@ -2467,7 +2474,6 @@ ul {
   padding-left: 4vw;
   position: relative;
   z-index: 99;
-  margin-top: 60px;
 }
 
 @media (max-width: 576px) {
@@ -2543,7 +2549,7 @@ ul {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 53, E:/166 Basketball/Basketball_Template/sass/_banner.scss */
   .banner_part .banner_text h1 {
-    font-size: 50px;
+    font-size: 70px;
     margin-bottom: 15px;
     line-height: 1.3;
   }

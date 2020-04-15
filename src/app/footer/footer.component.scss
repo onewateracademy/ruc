@@ -25,3 +25,15 @@ h5{
     color: #363636;
     font-weight: 600;
 }
+
+@media screen and (max-width:991px){
+    .footer-area {
+        padding: 6rem 0 5rem;
+    }
+}
+
+@media screen and (max-width:576px){
+    .footer-area{
+        padding: 10rem 0 5rem;
+    }
+}

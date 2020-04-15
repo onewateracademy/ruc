@@ -72,34 +72,6 @@
   left: 15%;
 }
 
-  .heading_block_left{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 150%;
-    width: 25%;
-    padding: 5rem 0 3rem;
-    background-image:linear-gradient(to bottom right, #0e0c87d5, #0e0c8793) , url(/assets/img/heading_bg2.png);
-    border-bottom-right-radius: 200rem;
-  }
-  .heading_block_top{
-    width:50%;
-    padding: 3rem 2rem;
-    margin: 4rem 0;
-    background-image:linear-gradient(to bottom right, #0e0c87d5, #0e0c8793) , url(/assets/img/heading_bg2.png);
-    border-top-right-radius: 200rem;
-    border-bottom-right-radius: 200rem;
-  }
-  .heading_block{
-    background-size: cover;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-  }
-  .content_block{
-    width: 75%;
-    margin-left: 25%;
-    padding:120px 60px;
-  }
 
   .sub_heading{
     color: #fff;
@@ -152,9 +124,12 @@
   .mission_section{
     background-color: #f3f1ff;
     margin-top: 6rem;
-    padding: 100px 0;
+    padding: 6rem 0;
     position: relative;
 
+    h1{
+      text-align: right;
+    }
     p{
       text-align: justify;
     font-weight: 600;
@@ -167,12 +142,7 @@
     margin-top: 2rem;
     }
   }
-  .big_heading{
-    font-weight: 800;
-    color: #160e78;
-    font-size: 5rem;
-    letter-spacing: -0.2rem;
-  }
+
   .section_text{
     max-width: 700px;
   }
@@ -266,4 +236,85 @@
   }
   }
 
-  
+  @media all and (max-width:991px){
+    .banner_part{
+      height: 100vh;
+    }
+    .banner_img{
+      display: none;
+    }
+    .banner_text{
+      width: 100%;
+      padding-left: 0;
+      background-image: linear-gradient(to bottom, #05017c, #110e8b47),url(/assets/img/banner_bg2.png);
+      background-position: top right;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      p{
+        margin: 0 auto;
+        color: #fff;
+        width: 90%;
+        opacity: 1;
+      }
+
+      h1{
+        margin-top: 30vh;
+        color: #fff;
+      }
+
+    }
+    .circle_bg1 {
+      width: 15rem;
+      height: 15rem;
+      top: 50%;
+    }
+    .circle_bg2{
+      bottom: -7rem;
+    /* left: 20vw; */
+    left: auto;
+    right: 55%;
+    }
+    
+    .mission_section{
+      margin-top: 0;
+    }
+    .contact_section{
+      margin-top: 8rem;
+    padding: 8rem 0;
+      h1{
+        text-align: center;
+      }
+      .col-lg-6{
+        text-align: center;
+      }
+
+      img{
+        width: 90%;
+        max-width: 400px;
+      }
+    }
+    .light_rect2{
+      width: 100%;
+    top: 2rem;
+    height: 95%;
+    }
+    .form-contact{
+      .form-control{
+        background-color: #fff;
+      }
+    }
+  }
+
+  @media screen and (max-width: 576px){
+ 
+  .mission_section{
+    h1{
+      text-align: left;
+    }
+  }
+  .circle_bg1{display: none;}
+  .light_card.shift_top{
+    transform: translateY(0);
+  }
+}

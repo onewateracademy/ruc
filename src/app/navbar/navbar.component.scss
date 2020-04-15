@@ -11,3 +11,20 @@
 .join-us{
     border:1.5px solid #8cbd3a !important
 }
+
+.navbar-toggler span i{
+    font-size: 3.5rem;
+    color: #fff;
+}
+.main_menu.menu_fixed {
+    .navbar-toggler span i{
+        color: #000;
+    }
+}
+@media screen and (max-width:991px){
+    .main_menu .navbar-light .navbar-nav .nav-link {
+        color: #000;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+}

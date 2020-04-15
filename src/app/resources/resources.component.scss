@@ -1,28 +1,7 @@
 .header_content {
-    min-height: 80vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-  
-    .header_img {
-      position: absolute;
-      top: 0;
-      right: 0rem;
-      width: 75%;
-      height: 100%;
-      background-image: linear-gradient(to right, #0e0c87d5, #0e0c8793),
-        url(/assets/img/circle_bg1.png);
-      background-size: cover;
-      background-position: bottom right;
-      background-repeat: no-repeat;
-      border-bottom-left-radius: 15rem;
-    }
   
     .big_heading {
-      margin-bottom: 4rem;
-      margin-right: 4vw;
-      font-size: 5rem;
-      letter-spacing: -0.15rem;
+      
       color: #fff;
     }
   }
@@ -121,4 +100,13 @@
    .event_date{
        margin-bottom: 0.5rem;
    }
+}
+
+@media screen and (max-width:991px){
+    .top_events{
+        padding-top: 8rem;
+    }
+    .past_events{
+        padding-top: 6rem;
+    }
 }

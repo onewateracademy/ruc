@@ -17,3 +17,96 @@
       font-weight:600;
     }
   }
+
+
+  .header_content {
+    min-height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  
+    .header_img {
+      position: absolute;
+      top: 0;
+      right: 0rem;
+      width: 75%;
+      height: 100%;
+      background-image: linear-gradient(to right, #0e0c87d5, #0e0c8793),
+        url(/assets/img/circle_bg1.png);
+      background-size: cover;
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      border-bottom-left-radius: 15rem;
+      border-top-left-radius: 0;
+    }
+  
+    .big_heading {
+      margin-bottom: 4rem;
+      margin-right: 4vw;
+      font-size: 5rem;
+      letter-spacing: -0.15rem;
+      color: #fff;
+    }
+  }
+  
+  .heading_block_left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150%;
+    width: 25%;
+    padding: 5rem 0 3rem;
+    background-image:linear-gradient(to bottom right, #0e0c87d5, #0e0c8793) , url(/assets/img/heading_bg2.png);
+    border-bottom-right-radius: 200rem;
+  }
+  .heading_block_top{
+    width:50%;
+    padding: 3rem 2rem;
+    margin: 4rem 0;
+    background-image:linear-gradient(to bottom right, #0e0c87d5, #0e0c8793) , url(/assets/img/heading_bg2.png);
+    border-top-right-radius: 200rem;
+    border-bottom-right-radius: 200rem;
+  }
+  .heading_block{
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+  .content_block{
+    width: 75%;
+    margin-left: 25%;
+    padding:8rem 4rem;
+  }
+
+  .big_heading{
+    font-weight: 800;
+    color: #160e78;
+    font-size: 5rem;
+    letter-spacing: -0.2rem;
+  }
+
+  @media screen and (max-width:991px){
+    .sub_heading{display: none;}
+    .header_content{
+      min-height: 50vh;
+    }
+    .d-mobile-none{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 576px){
+    .heading_block_left{
+      display: none;
+    }
+    .content_block {
+      width: 100%;
+      margin-left: 0;
+  }
+  .header_content{
+    height: 75vh;
+    .header_img{
+      width: 100%;
+    }
+  }
+}
+
