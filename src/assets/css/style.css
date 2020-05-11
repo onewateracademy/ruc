@@ -2255,9 +2255,7 @@ ul {
     background-color: rgb(252, 252, 252);
   }
   /* line 147, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
-  .main_menu .navbar-nav .nav-link:hover {
-    color: #fff !important;
-  }
+ 
   /* line 151, E:/166 Basketball/Basketball_Template/sass/_menu.scss */
   .main_menu .dropdown .dropdown-menu {
     transform: scale(1, 0);
