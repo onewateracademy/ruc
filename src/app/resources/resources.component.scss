@@ -1,5 +1,4 @@
 .header_content {
-  
     .big_heading {
       
       color: #fff;
@@ -17,6 +16,16 @@
 
 .events_box{
     margin: 3rem 0;
+}
+.speaker{
+    color: #160e78;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-right: 2px;
+    display: inline-block;
+}
+.modal-body{
+    text-align: left;
 }
 .event_card{
     margin-bottom: 2rem;

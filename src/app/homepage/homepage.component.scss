@@ -96,6 +96,26 @@
       margin-top: 1rem;
     }
   }
+  .partners-section{
+    .big_heading{
+      font-size: 3.5rem;
+      letter-spacing: -0.15rem;
+    }
+    .partner-img{
+      background-color: #fff;
+      padding: 2rem;
+      margin: 2rem 2rem 2rem;
+     border-top-left-radius: 4rem;
+     border-bottom-right-radius: 4rem;
+      border:2px solid #160e78;
+      text-align: center;
+
+      img{
+        max-height: 120px;
+        width: auto;
+      }
+    }
+  }
   .circle_bg2{
     width: 15rem;
     height: 15rem;
@@ -233,8 +253,10 @@
   }
   .form-control:focus{
     border: 2px solid #160e78;
+    box-shadow: -1px 3px 11px 9px #160e781c, 1px 3px 4px 2px #160e7826;
   }
   }
+
 
   @media all and (max-width:991px){
     .banner_part{

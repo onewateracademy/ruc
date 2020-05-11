@@ -205,16 +205,25 @@
     border-radius: 1rem;
     border: 1.2px solid #160e788f;
     overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  cursor: pointer;
+    &:hover{
+        background-color:#170e78 ;
+        h2,p,h6{
+          color: #fff;
+        }
+    }
 }
 .member_img {
   position: relative;
-  max-height: 200px;
+  height: 230px;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: top center;
-  object-position: center;
+  object-position: top;
 }
+
 
 .member_img::after {
   content: "";
@@ -228,12 +237,15 @@
 }
 
 .member_details {
+ 
   h2 {
     font-weight: 800;
     margin-top: 0.5rem;
+    padding: 1rem 0;
     font-size: 1.8rem;
     letter-spacing: -0.06rem;
     color: #160e78;
+    transition: all 0.3s ease-in-out;
   }
 
   p{
@@ -241,6 +253,7 @@
     color: #212121;
     letter-spacing: -0.04rem;
     font-weight: 700;
+    transition: all 0.3s ease-in-out;
   }
   h6 {
     margin-top: 2rem;
@@ -249,6 +262,7 @@
     color: #160e78;
     opacity: 0.6;
     letter-spacing: -0.02rem;
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -274,14 +288,15 @@
     margin-bottom: 1rem;
   }
   .member_img{
-    max-height: 180px;
+    max-height: 350px;
     object-position: top center;
   }
   .member_details{
-    padding: 1rem;
+    padding: 0 1rem 0.5rem;
 
     h2{
       font-size: 1.5rem;
+      margin-top: 0rem;
       letter-spacing: -0.04rem;
     }
     h6{
@@ -290,9 +305,22 @@
   }
 }
 
+  
+
+
+
 @media screen and (max-width:991px){
   .header_content{
     min-height: 50vh;
+  }
+  .light-box{
+    h1 {
+        font-size: 3.5rem;
+        letter-spacing: -0.2rem;
+    }
+}
+  .member_details{
+    padding: 1rem;
   }
   .grid_circle_1{
     top: 0;
@@ -333,7 +361,10 @@
     text-align: center;
   }
   .board_of_directors .member_img{
-    max-height: 250px;
+    height: 320px;
+  }
+  .member_img{
+    height: 250px;
   }
 }
 
@@ -343,5 +374,20 @@
     .header_img{
       width: 100%;
     }
+  }
+  .light-box{
+    h1{
+        font-size: 2.5rem;
+        letter-spacing: -0.08rem;
+        
+    }
+}
+.l-text{
+  p{
+    text-align: left;
+  }
+}
+  .member_img{
+    height: 350px;
   }
 }

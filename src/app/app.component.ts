@@ -2,6 +2,8 @@ import { Component, OnInit} from '@angular/core';
 import { Router, NavigationStart,NavigationEnd} from '@angular/router';
 import { Location, PopStateEvent } from "@angular/common";
 import { PageScrollConfig } from 'ng2-page-scroll';
+import { $ } from 'protractor';
+import { ModalFunctions } from './common/modal-functions';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +16,7 @@ export class AppComponent implements OnInit {
   private lastPoppedUrl: string;
   private yScrollStack: number[] = [];
 
-  constructor(private router: Router, private location: Location){}
+  constructor(private router: Router, private location: Location, public modal: ModalFunctions){}
   ngOnInit(){
     PageScrollConfig.defaultScrollOffset = 80;
     PageScrollConfig.defaultEasingLogic = {
@@ -41,6 +43,8 @@ export class AppComponent implements OnInit {
               window.scrollTo(0, 0);
       }
   });
+
+   document.querySelector('overlay').addEventListener("click", this.modal.closeModal)
 
   }
 }
