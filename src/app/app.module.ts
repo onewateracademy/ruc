@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,7 +23,10 @@ import {Ng2PageScrollModule} from 'ng2-page-scroll';
     BrowserModule,
     AppRoutingModule,
     NgxMasonryModule,
-    Ng2PageScrollModule
+    HttpClientModule,
+    Ng2PageScrollModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

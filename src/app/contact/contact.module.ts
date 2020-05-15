@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule,Route } from '@angular/router';
 import { ContactComponent } from './contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 const routes: Route[]=[
     {
@@ -15,7 +16,9 @@ const routes: Route[]=[
   exports:[ContactComponent],
   imports: [
   RouterModule.forChild(routes),
-  CommonModule
+  CommonModule,
+  FormsModule,
+  ReactiveFormsModule
   ]
 })
 export class ContactModule { }
