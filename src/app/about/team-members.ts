@@ -152,11 +152,13 @@ export class teamMembers {
             `,
     },
     {
-      img: "assets/img/team/",
+      img: "assets/img/team/Dasek.jpg",
       name: "Alice G. Dasek",
       position: "Policy Advisor",
       org: "U.S. Department of Energy",
-      about: ``,
+      about: `
+      Ms. Dasek serves in the Office of Energy Efficiency and Renewable Energy at the U.S. Department of Energy (DOE), where she works with state and local governments to meet their energy goals.  In that capacity Alice has led DOE’s Sustainable Wastewater Infrastructure of the Future (SWIFt) initiative since 2016, working with water resource recovery facilities on energy management and infrastructure improvement. <br> She serves on the Board of Directors for the Resilient Utility Coalition and in an advisory capacity to the 2020 Utility of the Future Recognition Program from the Water Environment Federation (WEF).Alice has masters degrees in business administration and environmental and energy management.
+      `,
     },
     {
       img: "assets/img/team/tiffany-troxler.jpg",

@@ -75,13 +75,19 @@ input:hover, input:focus {
 /* line 38, E:/166 Basketball/Basketball_Template/sass/_common.scss */
 a {
   text-decoration: none;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #160e78;
+  font-weight: 600;
+  padding-bottom: 2px;
+  border-bottom: 1.5px solid transparent;
+  
 }
 
 /* line 41, E:/166 Basketball/Basketball_Template/sass/_common.scss */
 a:hover, a :hover {
-  color: rgb(2, 67, 87);
+  color: #3726f3;
+  border-color: #3726f3;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;

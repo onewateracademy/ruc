@@ -75,7 +75,7 @@
   .content_block{
     width: 75%;
     margin-left: 25%;
-    padding:8rem 4rem;
+    padding:4rem 4rem;
   }
 
   .big_heading{
@@ -83,6 +83,19 @@
     color: #160e78;
     font-size: 5rem;
     letter-spacing: -0.2rem;
+  }
+
+  .secondary-head{
+    font-weight: 800;
+    color: #160e78;
+    font-style: normal;
+    letter-spacing: -0.05rem;
+  }
+
+  .blue-p{
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: -0.015rem;
   }
 
   /*lighbox styling*/
