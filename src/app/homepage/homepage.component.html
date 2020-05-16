@@ -1,12 +1,12 @@
 <!-- banner part start-->
 <!-- <section class="banner_part">
-  
+
     <div class="banner_text">
       <h1>
         Resilient<br>
         Utility <br> Coalition
       </h1>
-     
+
       <a pageScroll href="#about-sec" class="btn_1 join-btn"
         >learn more <span class="ti-angle-right"></span>
       </a>
@@ -14,7 +14,7 @@
     <div class="banner_img">
 
     </div>
-  
+
 </section> -->
 <!-- banner part start-->
 
@@ -31,7 +31,7 @@
           <h1 class="text-center">
             Resilient Utility <br> Coalition
           </h1>
-         
+
           <a pageScroll href="#about-sec" class="btn_1 join-btn"
             >learn more <span class="ti-angle-right"></span>
           </a>
@@ -42,7 +42,7 @@
       </div> -->
     </div>
   </div>
- 
+
 </section>
 
 <!-- about part start-->
@@ -55,19 +55,19 @@
     <div class="content_block">
       <div class="container">
         <div class="about_text">
-       
+
           <!-- <h2>
             One sentence about us
           </h2> -->
-          <p class="section_text blue-p"> 
-            The Resilient Utility Coalition (RUC) was created with the objective of advancing utility infrastructure resilience efforts. 
+          <p class="section_text blue-p">
+            The Resilient Utility Coalition (RUC) was created with the objective of advancing utility infrastructure resilience efforts.
             <br><br>
-            Partners from the utilities, professional associations, industry, and academia are working together to operationalize policy and practices in assessing and adapting utility operations to address the increasing number of challenges faced by utilities worldwide. 
+            Partners from the utilities, professional associations, industry, and academia are working together to operationalize policy and practices in assessing and adapting utility operations to address the increasing number of challenges faced by utilities worldwide.
           </p>
           <a routerLink="/about" class="btn_2">know more</a>
         </div>
       </div>
-      
+
     </div>
     <!-- <h4 class="sub_heading">About us</h4> -->
       <!-- <div class="col-md-6 col-xl-6">
@@ -91,15 +91,15 @@
                     </div>
                     <div class="col-md-6">
                       <div class="about_text">
-                          
+
                             <p>
                               By operationalizing resilience through interdisciplinary and integrated planning we are improving water quality, public health, the efficient use of resources, and ensuring responsible investments in our utilities.
                             </p>
-                                
+
                       </div>
                     </div>
-                    
-                  </div> 
+
+                  </div>
                 </div>
               </section>
               <section class="vision_section">
@@ -112,13 +112,13 @@
                       <div class="about_text">
                             <p>
                               We are resilient utilities in a One Water coalition.
-                            </p>  
+                            </p>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <img src="assets/img/vision_img.svg" alt="" class="vision_img">
                     </div>
-                  </div> 
+                  </div>
                 </div>
               </section>
               <!-- <section class="about_part mt-0">
@@ -131,57 +131,57 @@
                         </div>
                         <div class="col-md-6">
                                 <div class="about_text">
-                          
+
                                         <h2>Vision</h2>
                                         <p>
-                                          We are resilient utilities in a One Water coalition 
-        
+                                          We are resilient utilities in a One Water coalition
+
                                         </p>
-                                             
+
                                   </div>
                         </div>
                       </div>
                     </div>
                   </section> -->
-           
+
 
       <!-- ================ contact section start ================= -->
     <section class="contact_section">
       <div class="heading_block light_rect2"></div>
       <div class="container">
           <div class="row justify-content-center align-items-center">
-           
+
             <div class="col-lg-6">
               <h2 class="big_heading mb-4">Contact Us</h2>
               <img src="assets/img/contact_img.svg" alt="" class="contact_img">
             </div>
             <div class="col-lg-6">
-             
+
               <div class="col-lg-12">
-                <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                <form [formGroup]="form" (submit)="contact()" class="form-contact contact_form" id="contactForm" novalidate="novalidate">
                   <div class="row">
                       <div class="col-sm-12">
                           <div class="form-group">
-                            <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder = 'Enter your name'>
+                            <input formControlName="name" class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder = 'Enter your name'>
                           </div>
                         </div>
                         <div class="col-sm-12">
                           <div class="form-group">
-                            <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder = 'Enter email address'>
+                            <input formControlName="email" class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder = 'Enter email address'>
                           </div>
                         </div>
                         <div class="col-12">
                           <div class="form-group">
-                            <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder = 'Enter Subject'>
+                            <input formControlName="subject" class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder = 'Enter Subject'>
                           </div>
                         </div>
                     <div class="col-12">
                       <div class="form-group">
-                        
-                          <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder = 'Enter Message'></textarea>
+
+                          <textarea formControlName="message" class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder = 'Enter Message'></textarea>
                       </div>
                     </div>
-                 
+
                   </div>
                   <div class="form-group mt-3 text-center">
                     <button type="submit" class="button button-contactForm">Submit</button>
@@ -190,7 +190,7 @@
               </div>
             </div>
           </div>
-        
+
       </div>
     </section>
     <!-- ================ contact section end ================= -->
@@ -222,10 +222,10 @@
                 </a>
             </div>
           </div>
-          
+
         </div>
       </div>
-    
+
     </section>
 
     <!-- upcoming_event part start-->
@@ -247,22 +247,22 @@
                 <p>The Resilient Utility Coalition (RUC) and the One Water Academy (OWA) share various commonalitites.
                 </p>
               </div>
-             
+
               <div class="light_card">
                 <div class="icon"><img src="assets/img/icon1.svg" alt=""></div>
                 <p>
-                  For the purposes of work being performed in the South Florida region, OWA and RUC  will work jointly and collaboratively on all initiatives so that we maximize the outputs from our volunteers. 	
+                  For the purposes of work being performed in the South Florida region, OWA and RUC  will work jointly and collaboratively on all initiatives so that we maximize the outputs from our volunteers.
                 </p>
               </div>
             </div>
-           
+
             <div class="col-sm-6">
               <div class="light_card shift_top">
                 <div class="icon">
                   <img src="assets/img/icon2.svg" alt="">
                 </div>
                 <p>
-                  Like their core mission of advancing training, professional development, mentoring, and knowledge sharing within the water, wastewater, and stormwater utility industries. 
+                  Like their core mission of advancing training, professional development, mentoring, and knowledge sharing within the water, wastewater, and stormwater utility industries.
                 </p>
               </div>
             </div>
