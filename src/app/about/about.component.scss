@@ -22,8 +22,9 @@
   .big_heading {
     margin-bottom: 4rem;
     margin-right: 4vw;
-    font-size: 5rem;
-    letter-spacing: -0.15rem;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.08rem;
     color: #fff;
   }
 }
@@ -36,6 +37,7 @@
 
 .heading_block_left{
   height: 100%;
+  top: 0;
     padding: 5rem 0 3rem;
     background-image:linear-gradient(to bottom right, #0e0c87d5, #0e0c8793) , url(/assets/img/heading_bg2.png);
     border-top-right-radius: 15rem;
@@ -189,8 +191,8 @@
   .big_heading{
     margin-bottom: 4rem;
     margin-right: 4vw;
-    font-size: 5rem;
-    letter-spacing: -0.15rem;
+    font-size: 3rem;
+    letter-spacing: -0.1rem;
     color: #fff;
   }
 }

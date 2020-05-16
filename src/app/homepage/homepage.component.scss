@@ -23,6 +23,17 @@
     }
   }
 
+  .landing-section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/img/landing-bg.png);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
+
   .join-btn{
     background: #101010; 
   
@@ -35,13 +46,14 @@
 .banner_part{
   padding: 0;
 }
-  .banner_text{
-    width: 25%;
-    h1{
-      margin-top: 20vh;
-    }
-    background-color: #fff;
+ 
+.banner-logo{
+  margin-bottom: 1rem;
+  img{
+    width: 200px;
   }
+}
+
   .banner_img{
     width: 75%;
     height:100%;
@@ -72,12 +84,17 @@
   left: 25%;
 }
 
+.content_block{
+  .blue-p{
+    font-size: 1.2rem;
+  }
+}
 
   .sub_heading{
     color: #fff;
     font-size: 5rem;
     letter-spacing: -0.15rem;
-    margin: 1rem 2rem;
+    margin: 7rem 2rem;
     font-weight:700;
   }
   .partnership_section{
@@ -271,10 +288,7 @@
     .banner_text{
       width: 100%;
       padding-left: 0;
-      background-image: linear-gradient(to bottom, #05017c, #110e8b47),url(/assets/img/banner_bg2.png);
-      background-position: top right;
-      background-repeat: no-repeat;
-      background-size: cover;
+     
 
       p{
         margin: 0 auto;
@@ -284,7 +298,6 @@
       }
 
       h1{
-        margin-top: 30vh;
         color: #fff;
       }
 
@@ -338,6 +351,20 @@
       text-align: left;
     }
   }
+  .light_rect{
+    width: 100%;
+    border-top-left-radius: 0rem;
+
+    
+  }
+
+  .banner-logo img {
+    width: 150px;
+}
+
+  .about_text .big_heading{
+    color: #fff;
+}
   .circle_bg1{display: none;}
   .light_card.shift_top{
     transform: translateY(0);

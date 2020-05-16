@@ -1,11 +1,16 @@
 .logo img{
     width: 110px;
     margin: 12px 24px;
+    visibility: hidden;
     
+}
+.logo-link:hover{
+    border-bottom: none;
 }
 
 .menu_fixed .logo img{
     width: 70px;
+    visibility: visible;
 }
 
 .join-us{
@@ -13,9 +18,10 @@
 }
 
 .navbar-toggler span i{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #fff;
-    margin: 4vw;
+    font-weight: 300;
+    margin: 0 4vw;
 }
 .main_menu.menu_fixed {
     .navbar-toggler span i{
@@ -27,5 +33,7 @@
         color: #000;
         text-transform: capitalize;
         font-weight: 700;
+        display: inline-block;
     }
 }
+

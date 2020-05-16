@@ -5,14 +5,21 @@
      }
 } 
 
-h5{
-    font-size: 32px;
-}
+
 
 .footer-logo{
+    display: flex;
     justify-content: center;
     align-items: center;
-    
+    h5{
+        color: #160e78;
+        font-size: 2rem;
+        font-weight: 400;
+    letter-spacing: -0.05rem;
+    }
+    a{
+        border: none;
+    }
 }
 
 .footer-area{
@@ -35,6 +42,22 @@ h5{
 
 @media screen and (max-width:576px){
     .footer-area{
-        padding: 10rem 0 5rem;
+        padding: 6rem 0 5rem;
+        text-align: center;
+        border-top-left-radius: 0rem;
+
+        
+    }
+    .footer-logo{
+
+        img{
+            margin-bottom: 0.5rem;
+            width: 120px;
+        }
+        h5{
+            font-size: 2.5rem;
+        }
+        text-align: center;
+        flex-direction: column-reverse;
     }
 }

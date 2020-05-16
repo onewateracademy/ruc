@@ -20,6 +20,14 @@ export class NavbarComponent implements OnInit {
         $('.main_menu').removeClass('menu_fixed animated fadeInDown');
       }
     });
+
+    $('.nav-link').on('click', function () {
+      if($('.collapse').hasClass('show')){
+        $('.collapse').removeClass('show')
+      }
+      else
+      $('.collapse').addClass('show')
+    });
   }
 
 }

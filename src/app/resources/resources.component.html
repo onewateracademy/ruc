@@ -123,6 +123,49 @@
                 <p>{{currentEvent?.desc}}</p>
               </div>
             </div>
+            <div class="col-lg-12">
+              <div class="l-text">
+                <h2 class="mt-3 mb-2">Files related to event:</h2>
+                <div class="files" *ngIf="currentPPTs?.length">
+                  <h2>Presentations</h2>
+                  <ul>
+                    <li *ngFor="let item of currentPPTs">
+                      <a [href]="item.url" target="_blank">
+                      <p>
+                        {{item.name}}
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+                </div>
+                <div class="files" *ngIf="currentPDFs?.length">
+                  <h2>PDFs</h2>
+                  <ul>
+                    <li *ngFor="let item of currentPDFs">
+                      <a [href]="item.url" target="_blank">
+                      <p>
+                        {{item.name}}
+                      </p>
+                    </a>
+                   
+                  </li>
+                  </ul>
+                </div>
+                <div class="files" *ngIf="currentIMGs?.length">
+                  <h2>Images</h2>
+                  <ul>
+                    <li *ngFor="let item of currentIMGs">
+                      <a [href]="item.url" target="_blank">
+                      <p>
+                        {{item.name}}
+                      </p>
+                    </a>
+                   
+                  </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -17,6 +17,10 @@ export class ResourcesComponent implements OnInit {
     desc:'',
     //img:null,
   };
+  currentPDFs = [];
+  currentPPTs = [];
+  currentIMGs = [];
+
   constructor(public modal: ModalFunctions, public eventsData: EventsData) {}
 
   ngOnInit() {
@@ -27,6 +31,26 @@ export class ResourcesComponent implements OnInit {
 
   showEvent(currevent) {
     this.currentEvent = currevent;
+    this.splitFiles();
     this.modal.openModal("#eventModal");
+  }
+
+  splitFiles(){
+    this.currentPDFs = [];
+    this.currentPPTs = [];
+    this.currentIMGs = [];
+    this.currentEvent['files'].forEach(element => {
+      if(element.type == 'pdf'){
+        this.currentPDFs.push(element);
+      }
+      else if(element.type == 'ppt'){
+        this.currentPPTs.push(element);
+      }
+      else if(element.type == 'img')
+      {
+        this.currentIMGs.push(element);
+      }
+    });
+    console.log(this.currentPDFs,this.currentPPTs);
   }
 }
