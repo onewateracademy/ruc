@@ -16,7 +16,7 @@ export class EventsData {
       ],
       desc:
         'The Resilient Utility Coalition Summit brought together water, wastewater, and storm water utilities with industry, academia, and the greater community with the objective to advance utility infrastructure efforts - to "Operationalize Resilience."',
-      thumbnail: "assets/img/event.svg",
+      thumbnail: "",
       files: [
         {
           name: "RUC Vision and Mission Slides",
