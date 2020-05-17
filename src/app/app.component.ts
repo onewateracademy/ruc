@@ -44,7 +44,5 @@ export class AppComponent implements OnInit {
       }
   });
 
-   document.querySelector('overlay').addEventListener("click", this.modal.closeModal)
-
   }
 }

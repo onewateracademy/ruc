@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { ModalFunctions } from "../common/modal-functions";
 import { EventsData } from "./events-data";
+declare var $:any;
 
 @Component({
   selector: "app-resources",
@@ -26,7 +27,8 @@ export class ResourcesComponent implements OnInit {
   ngOnInit() {
     this.topevents = this.eventsData.topEvents;
     this.pastevents = this.eventsData.pastEvents;
-    console.log(this.pastevents);
+    //console.log(this.pastevents);
+   
   }
 
   showEvent(currevent) {
@@ -35,6 +37,8 @@ export class ResourcesComponent implements OnInit {
     this.modal.openModal("#eventModal");
   }
 
+
+ 
   splitFiles(){
     this.currentPDFs = [];
     this.currentPPTs = [];
@@ -51,6 +55,6 @@ export class ResourcesComponent implements OnInit {
         this.currentIMGs.push(element);
       }
     });
-    console.log(this.currentPDFs,this.currentPPTs);
+    //console.log(this.currentPDFs,this.currentPPTs);
   }
 }

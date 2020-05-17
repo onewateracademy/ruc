@@ -39,7 +39,7 @@ export class EventsData {
       date: "August 18 2016",
       speakers: [],
       desc: `The Resilient Utility Coalition (RUC) seeks to bring together utilities, the water industry, professional organizations, and academia to develop strategies that will advance utility infrastructure resiliency efforts and provide essential value to its members and partners. The coalition's goal is to provide leadership in adapting utility operations to address the potential effects of climate change. The group seeks to ehance usefulness of climate science by developing adaptation strategies and improving water management decision-making in the face of climate uncertainty.`,
-      thumbnail:'',
+      thumbnail:'assets/resources/ruc_visioning_workshop/thumb.jpg',
       files:[
         {
           name:'Event Flyer',
@@ -119,7 +119,7 @@ export class EventsData {
       date: "June 8 2017",
       speakers: [],
       desc: `On April 2, 2017, mudslides in the rural village of Mocoa, Colomia killed more than 300 people and displaced hundreds more. As a result, the majority of villagers still lack basic necessities as they begin to rebuild. The Association of Colombian Civil Engineers and the Resilient Utility Coalition invite you to come help us support the victims of this tragedy.`,
-      thumbnail:'',
+      thumbnail:'assets/resources/mocoa/MOCOA Fundraiser Flyer.gif',
       files:[
         {
           name:'MOCOA Fundraiser Flyer',
@@ -133,7 +133,7 @@ export class EventsData {
       date: "June 8 2017",
       speakers: ["Laurens van der Tak P.E.", "Jason Bird"],
       desc: `RUC Tech Talk Series Kick-off - This initiative is a continuation of RUC’s mission for serving as a facilitator for communication and knowledge sharing, regarding topics relevant to the development of joint strategies and actions to achieve resilience within our utilities.`,
-      thumbnail:'',
+      thumbnail:'assets/resources/tt_kick_off/Tech Talk Kick-Off Flyer.jpg',
       files:[
         {
           name:'Tech Talk Kick-Off Flyer',
@@ -163,7 +163,7 @@ export class EventsData {
       date: "August 24 2017",
       speakers: ["Perry Gayle Ph.D, P.E., LEED AP"],
       desc: `This presentation focused on the application of the J100 standard, and how to utilize it to direct the design and evaluation of options to reduce risk and enhance resilience, support resource allocation decisions to risk-reduction and resilience-enhancement options, impliment Risk Analysis and Management for Critical Asset Protection (RAMCAP), and ultimately reduce risk and enhance resilience of utilities in a cost-effective manner.`,
-      thumbnail:'',
+      thumbnail:'assets/resources/tt_j100/Flyer - TT J100 on a Budget.jpg',
       files:[
         {
           name:'Flyer - TT J100 on a Budget',
@@ -185,7 +185,7 @@ export class EventsData {
         "Matthew Frost, Protective Security Advisor, U.S. Department of Homeland Security",
       ],
       desc: `This presentation includes information on DHS tools and services to assess the vulnerability of critical infrastructure including water and wastewater treatment plants. Hazards considered range from natural hazards to manmade, including site safety and cybersecurity assessments. Assessment tools include dashboards that provide a resilience measure index score including a comparison to similar facilities across the nation.`,
-      thumbnail:'',
+      thumbnail:'assets/resources/tt_security/Flyer - TT Security Starts Here.JPG',
       files:[
         {
           name:'Flyer - TT Security Starts Here',
@@ -204,7 +204,7 @@ export class EventsData {
         "Adam Faschan, Ph.D, P.E., Senior Project Manager, King-Ardurra",
       ],
       desc: `Understanding which assets are most vulnerable to climate change impacts and their criticality to operations can help utilities prioritize investments and prepare them to take advantage of funding opportunities. Speakers shared a process for this analysis including estimating the cost of incremental adaptation as a part of a captial improvement plan. Information on funding programs and strategies were also provided.`,
-      thumbnail:'',
+      thumbnail:'assets/resources/tt_risk/Flyer - TT Identifying Risk.png',
       files:[
       {
         name:'Flyer - TT Identifying Risk',
@@ -227,7 +227,7 @@ export class EventsData {
         "Warren D. Andrews, P.E., Vice President, WSP USA",
       ],
       desc: `This Tech Talk discussed how the electric utilities are strengthening their own infrastructure and reviewed various technology and market trends, such as distributed energy resources and microgrids. Speakers shared variuos strategies being employed in our region to deliver targeted energy reductions, reduce emissions, and expand renwable energy portfolios.`,
-      thumbnail:'',
+      thumbnail:'assets/resources/tt_energy/Flyer - TT Energy.png',
       files:[
         {
           name:'Flyer - TT Energy',
@@ -251,7 +251,7 @@ export class EventsData {
         "Sandeep Mehrotra, Hazen and Sawyer",
       ],
       desc: `This Tech Talk discussed the roles of water utilities and incentives provided to promote successful implementation of stormwater green infrastructure. The City of New York presented the opportunities and lessons learned in advancing the largest and most recognized program in the nation to improve local water quality. Speakers shared various innovative strategies being employed to implement green infrastructure, or stormwater source controls, to manage stormwater runoff, reduce sewer overflows and improve water quality in NYC waterways. `,
-      thumbnail:'',
+      thumbnail:'assets/resources/tt_nyc/thumb.jpg',
       files:[
         {
           name:'Flyer - TT NYC Green',

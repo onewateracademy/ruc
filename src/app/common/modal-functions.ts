@@ -17,6 +17,8 @@ export class ModalFunctions {
             this.closeModal(thismodal);
           }
       });
+     // $('.overlay').on("click",this.closeModal(thismodal));
+      //$('.modal-dialog').on("click",this.closeModal(thismodal));
       }
     
       closeModal(thismodal) {
