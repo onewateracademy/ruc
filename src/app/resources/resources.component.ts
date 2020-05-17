@@ -36,8 +36,6 @@ export class ResourcesComponent implements OnInit {
     this.splitFiles();
     this.modal.openModal("#eventModal");
   }
-
-
  
   splitFiles(){
     this.currentPDFs = [];
