@@ -96,10 +96,8 @@
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-4">
-              <div class="l-img" *ngIf="currentEvent?.thumbnail">
-                <img [src]="currentEvent?.thumbnail" alt="" >
-              </div>
-              <div>
+              <div class="l-img" >
+                <img [src]="currentEvent?.thumbnail" alt="" *ngIf="currentEvent?.thumbnail">
                 <img src="assets/img/event.svg" alt="" *ngIf="!currentEvent?.thumbnail" >
               </div>
             </div>

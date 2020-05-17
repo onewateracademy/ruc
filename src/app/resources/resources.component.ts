@@ -33,6 +33,7 @@ export class ResourcesComponent implements OnInit {
 
   showEvent(currevent) {
     this.currentEvent = currevent;
+    console.log(this.currentEvent);
     this.splitFiles();
     this.modal.openModal("#eventModal");
   }
