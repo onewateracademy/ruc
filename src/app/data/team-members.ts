@@ -8,6 +8,7 @@ export class teamMembers {
    
     {
       img: "assets/img/team/Susy Torriente.png",
+      img_small: "assets/img/team/Susy Torriente_thumb.png",
       name: "Susanne M. Torriente",
       position: "President",
       org: "Jacobs",
@@ -25,6 +26,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/Juan Oquendo.jpg",
+      img_small: "assets/img/team/Juan Oquendo_thumb.jpg",
       name: "Juan Oquendo, PE",
       position: "Vice President",
       org: "Carollo Engineers",
@@ -34,6 +36,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/Debbie Griner.jpg",
+      img_small: "assets/img/team/Debbie Griner_thumb.jpg",
       name: "Debbie Griner, ENV SP",
       position: "Secretary",
       org: "Miami-Dade Water and Sewer Department",
@@ -46,6 +49,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/B.Rivera_.jpg",
+      img_small: "assets/img/team/B.Rivera_thumb.jpg",
       name: "Brenda S. Rivera, ENV SP",
       position: "Treasurer",
       org: "Jacobs",
@@ -58,6 +62,7 @@ export class teamMembers {
     
     {
       img: "assets/img/team/Kevin Carter.jpg",
+      img_small: "assets/img/team/Kevin Carter.jpg",
       name: "Kevin Carter",
       position: "Member at Large",
       org: "Broward County Water & Wastewater Services",
@@ -67,6 +72,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/hardeep-headshot.jpg",
+      img_small: "assets/img/team/hardeep-headshot.jpg",
       name: "Hardeep Anand, P.E.",
       position: "Founding Policy Director (non-voting)",
       org: "Miami-Dade Water and Sewer Department",
@@ -93,6 +99,7 @@ export class teamMembers {
   
     {
       img: "assets/img/team/Frias.jpg",
+      img_small: "assets/img/team/Frias.jpg",
       name: "Rafael E. Frias III, P.E.",
       position: "Associate Vice President, Client Director",
       org: "Black & Veatch",
@@ -103,6 +110,7 @@ export class teamMembers {
   
     {
       img: "assets/img/team/Andres Gomez.jpg",
+      img_small: "assets/img/team/Andres Gomez_thumb.jpg",
       name: "Andres Gomez Bonvecchio",
       position: "Engineer IV",
       org: "AECOM",
@@ -112,6 +120,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/Irela Bague.jpg",
+      img_small: "assets/img/team/Irela Bague_thumb.jpg",
       name: "Irela Bagué",
       position: "President",
       org: "Bague Group",
@@ -137,6 +146,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/Alice Fulmer.jfif",
+      img_small: "assets/img/team/Alice Fulmer.jfif",
       name: "Alice Fulmer",
       position: "Regional Liason",
       org: "The Water Research Foundation",
@@ -146,6 +156,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/Fries_bio_pic.png",
+      img_small: "assets/img/team/Fries_bio_pic_thumb.png",
       name: "J. Steven Fries, Ph.D.",
       position: "Civil, Environmental & Oceanographic Engineer",
       org: "U.S. Environmental Protection Agency (EPA)",
@@ -158,6 +169,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/Dasek.jpg",
+      img_small: "assets/img/team/Dasek.jpg",
       name: "Alice G. Dasek",
       position: "Policy Advisor",
       org: "U.S. Department of Energy",
@@ -167,6 +179,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/tiffany-troxler.jpg",
+      img_small: "assets/img/team/tiffany-troxler_thumb.jpg",
       name: "Tiffany G. Troxler, Ph.D.",
       position: "Director of Science",
       org:
@@ -178,6 +191,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/Ana Carolina.jfif",
+      img_small: "assets/img/team/Ana Carolina.jfif",
       name: "Ana Carolina Coelho Maran, P.E., Ph.D.",
       position: "Chief of District Resiliency",
       org: "South Florida Water Management District",
@@ -187,6 +201,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/Cueto Headshot.jpg",
+      img_small: "assets/img/team/Cueto Headshot.jpg",
       name: "Josenrique Cueto, P.E., LEED Green Associate, ENV SP",
       position: "Assistant Director",
       org: "Miami-Dade Water and Sewer Department",
@@ -199,6 +214,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/P'Pool Headshot.jpg",
+      img_small: "assets/img/team/P'Pool Headshot_thumb.jpg",
       name: "Austin P'Pool, P.E., ENV SP, CPESC",
       position: "Project Manager, Engineer",
       org: "The Corradino Group",
@@ -210,6 +226,7 @@ export class teamMembers {
     },
     {
       img: "assets/img/team/Aceituno.jpg",
+      img_small: "assets/img/team/Aceituno_thumb.jpg",
       name: "Juan Aceituno, P.E., ENV SP",
       position: "Office Manager, Senior Project Manager",
       org: "Jacobs",

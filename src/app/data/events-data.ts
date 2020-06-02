@@ -212,6 +212,18 @@ export class EventsData {
             "assets/resources/tt_security/Flyer - TT Security Starts Here.JPG",
           type: "img",
         },
+        {
+          name: "Homeland Security Starts with Hometown Security",
+          url:
+            "assets/resources/tt_security/Homeland Security Starts with Hometown Security.pptx",
+          type: "ppt",
+        },
+        {
+          name: "DHS Resources Guide",
+          url:
+            "assets/resources/tt_security/DHS Resources Guide.pdf",
+          type: "img",
+        },
       ],
     },
     {
@@ -276,6 +288,11 @@ export class EventsData {
           name: "Flyer - TT NYC Green",
           url: "assets/resources/tt_nyc/Flyer - TT NYC Green.pdf",
           type: "pdf",
+        },
+        {
+          name: "GI Balci RUC",
+          url: "assets/resources/tt_nyc/GI_Balci_RUC_Talk.pdf",
+          type: "ppt",
         },
       ],
     },
