@@ -51,14 +51,14 @@
   
   .heading_block_left{
     position: absolute;
-    top: -30%;
+    top: 0;
     left: 0;
-    height: 200%;
+    height: 100%;
     width: 25%;
     padding: 5rem 0 3rem;
     background-image: linear-gradient(to bottom right, #0e0c87d5, #0e0c8793), url(/assets/img/heading_bg2.png);
     border-bottom-right-radius: 200rem;
-    border-top-right-radius: 200rem;
+    /* border-top-right-radius: 200rem;*/
   }
   .heading_block_top{
     width:50%;
@@ -85,7 +85,12 @@
     font-size: 3.5rem;
     letter-spacing: -0.15rem;
   }
-
+.small_heading{
+  font-size:1.2rem;
+  font-weight: 600;
+  color: #160e78;
+  letter-spacing: -0.03rem;
+}
   .secondary-head{
     font-weight: 800;
     color: #160e78;

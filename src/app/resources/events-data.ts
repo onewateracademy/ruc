@@ -16,7 +16,7 @@ export class EventsData {
       ],
       desc:
         'The Resilient Utility Coalition Summit brought together water, wastewater, and storm water utilities with industry, academia, and the greater community with the objective to advance utility infrastructure efforts - to "Operationalize Resilience."',
-      thumbnail: "",
+      thumbnail: "assets/resources/ruc_summit/ruc-submmit-thumb.jpg",
       files: [
         {
           name: "RUC Vision and Mission Slides",
@@ -154,23 +154,23 @@ export class EventsData {
           url: "assets/resources/tt_kick_off/Tech Talk Kick-Off Flyer.jpg",
           type: "img",
         },
-        {
-          name:
-            "ONE WATER ACADEMY AND RESILIENT UTILITIES COALITION Partnening Proposal",
-          url:
-            "assets/resources/tt_kick_off/ONE WATER ACADEMY AND RESILIENT UTILITIES COALITION_UPDATED Jose and Hardeep.pdf",
-          type: "pdf",
-        },
-        {
-          name: "RUC 2017 Training Curriculum",
-          url: "assets/resources/tt_kick_off/RUC 2017 Training Curriculum.pdf",
-          type: "pdf",
-        },
+        // {
+        //   name:
+        //     "ONE WATER ACADEMY AND RESILIENT UTILITIES COALITION Partnening Proposal",
+        //   url:
+        //     "assets/resources/tt_kick_off/ONE WATER ACADEMY AND RESILIENT UTILITIES COALITION_UPDATED Jose and Hardeep.pdf",
+        //   type: "pdf",
+        // },
+        // {
+        //   name: "RUC 2017 Training Curriculum",
+        //   url: "assets/resources/tt_kick_off/RUC 2017 Training Curriculum.pdf",
+        //   type: "pdf",
+        // },
         {
           name: "Enhancing Utility Resilience",
           url:
             "assets/resources/tt_kick_off/Presentations/Enhancing Utility Resilience.pdf",
-          type: "pdf",
+          type: "ppt",
         },
       ],
     },

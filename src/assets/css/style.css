@@ -408,10 +408,9 @@ a:focus, .button:focus, button:focus, .btn:focus {
 
 /* line 156, E:/166 Basketball/Basketball_Template/sass/_common.scss */
 .about_text h4 {
-  color: rgb(2, 67, 87);
-  font-size: 20px;
+  color: #160e78;
+  font-size: 18px;
   line-height: 23px;
-  font-style: italic;
  
 }
 
@@ -2826,7 +2825,7 @@ ul {
 
 /* line 61, E:/166 Basketball/Basketball_Template/sass/_about.scss */
 .about_part .about_text {
-  padding-left: 80px;
+  padding-left: 2rem;
 }
 
 @media (max-width: 576px) {

@@ -19,6 +19,8 @@
             <div class="col-lg-6" *ngFor="let item of topevents">
               <div class="event_card">
                 <div class="event_img">
+                  <img [src]="item?.thumbnail" alt="" *ngIf="item?.thumbnail">
+                  <img src="assets/img/event.svg" alt="" *ngIf="!item?.thumbnail">
                 </div>
                
                 <div class="event_details">
@@ -36,12 +38,8 @@
               </div>
             </div>
 
-           
           </div>
-
         </div>
-
-   
       </div>
       </section>
       <section class="past_events events">

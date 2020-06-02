@@ -5,20 +5,10 @@ import { Injectable } from "@angular/core";
 })
 export class teamMembers {
   executives = [
-    {
-      img: "assets/img/team/B.Rivera_.jpg",
-      name: "Brenda S. Rivera, ENV SP",
-      position: "Environmental Engineer",
-      org: "Jacobs",
-      about: `
-          
-          Brenda S. Rivera is an Environmental Engineer with over 7 years of experience in the civil and environmental engineering field, with a focus on environmental remediation and water infrastructure projects. <br/><br/> Mrs. Rivera is employed by Jacobs Engineering Group, Inc. where she works on the design of water, wastewater, and stormwater infrastructure. She has served multiple key clients in the South Florida Market some included but not limited to the Seminole Tribe of Florida, Florida Department of Transportation District 4, Miami-Dade Water & Sewer Department, and City of North Miami Beach. She is the former Treasurer of the Florida Engineering Society Miami Chapter and was recently awarded Young Engineer of the Year by the FES Miami Chapter.
-          
-          `,
-    },
+   
     {
       img: "assets/img/team/Susy Torriente.png",
-      name: "Susanne Torriente",
+      name: "Susanne M. Torriente",
       position: "City Resilience Global Technology Leader",
       org: "Jacobs",
       about: `
@@ -32,6 +22,48 @@ export class teamMembers {
           In 2020 Susanne was appointed to the Institute for Building Technology & Safety Equitable Climate Resilience Advisory Panel, funded by the Kresge Foundation. This year she received the University of Miami Abess Center for Ecosystem Science & Policy - Reitmeister-Abess Center Award for her work Miami Dade County developing Resilient 305 and championing sustainability causes. <br/><br/>
           Susanne has shared her experience and the South Florida story at hundreds of climate, sustainability and resilience conferences around the world over the last 10 years. She holds a Bachelor of Arts in English and a Master of Public Administration from the University of Miami.
           `,
+    },
+    {
+      img: "assets/img/team/Juan Oquendo.jpg",
+      name: "Juan Oquendo, PE",
+      position: "Client Service Manager, Vice President",
+      org: "Carollo Engineers",
+      about: `
+            Juan Oquendo is a Vice President with Carollo Engineers, Inc. and serves as a Senior Client Services Manager in the South Florida region and Business Development Manager for Carollo’s Florida Operation. His project experience covers a broad range of civil and environmental engineering projects. <br/><br/> His municipal and public works experience includes planning, design, and construction services for water and wastewater collection, conveyance, and treatment facilities. He also has extensive experience in biosolids management, storm water, and climate resiliency.
+                `,
+    },
+    {
+      img: "assets/img/team/Debbie Griner.jpg",
+      name: "Debbie Griner, ENV SP",
+      position: "Resilience Manager",
+      org: "Miami-Dade Water and Sewer Department",
+      about: `
+          Debbie Griner has 24 years of public service, the majority of which has been with Miami-Dade County working on environmental compliance, permitting, planning, County and regional sustainability and climate change initiatives, including a role in the development of the County’s first community-wide sustainability plan and the Regional Climate Action Plan.
+          She joined the Miami-Dade County Water and Sewer Department in 2017 to lead the Resilience Program in operationalizing resilience throughout department programs.  Program priorities include continuing the successful water conservation efforts, expanding energy efficiency and renewable energy initiatives, and reducing vulnerabilities through increasing the utility’s ability to adapt more readily to acute shocks and longer-term stresses and the adoption of sustainable policies and practices.   <br/><br/>
+          Debbie serves as the Secretary on the Resilient Utility Coalition Board of Directors. She received her Bachelor of Science degree in Environmental Studies from Florida International University, with a minor in Biology.  She earned the Envision Sustainability Professional (ENV SP) designation and provides guidance on applying the rating system in infrastructure planning, design, and operation.  
+          
+          `,
+    },
+    {
+      img: "assets/img/team/B.Rivera_.jpg",
+      name: "Brenda S. Rivera, ENV SP",
+      position: "Environmental Engineer",
+      org: "Jacobs",
+      about: `
+          
+          Brenda S. Rivera is an Environmental Engineer with over 7 years of experience in the civil and environmental engineering field, with a focus on environmental remediation and water infrastructure projects. <br/><br/> Mrs. Rivera is employed by Jacobs Engineering Group, Inc. where she works on the design of water, wastewater, and stormwater infrastructure. She has served multiple key clients in the South Florida Market some included but not limited to the Seminole Tribe of Florida, Florida Department of Transportation District 4, Miami-Dade Water & Sewer Department, and City of North Miami Beach. She is the former Treasurer of the Florida Engineering Society Miami Chapter and was recently awarded Young Engineer of the Year by the FES Miami Chapter.
+          
+          `,
+    },
+    
+    {
+      img: "assets/img/team/Kevin Carter.jpg",
+      name: "Kevin Carter",
+      position: "Assistant to the Director",
+      org: "Broward County Water & Wastewater Services",
+      about: `
+            Kevin Carter has over 28 years of South Florida Water Resources experience from the Northern Everglades watershed, the Biscayne Aquifer, and the Gulf Stream. For the last 5 years, Kevin has worked with the Broward County Water and Wastewater Services where he primarily focuses on legislative and intergovernmental affairs as well as special projects such as grants. <br/><br/> He is currently the Florida Section of the American Water Works Association Water Utility Council Chairperson, Florida Water Environment Association (FWEA) Utility Council Board of Director, FWEA Water Resources, Reuse, and Resiliency (WR3) Committee Vice Chairperson, Florida Water and Wastewater Response Network Board Member and Resilient Utilities Coalition Board Member. He is past Florida Stormwater Association Vice President and South Florida Association of Environmental Professionals President. Kevin teaches Environmental Policy and Regulation at Broward College where he is an adjunct professor. He frequently gives presentations and lectures on water utilities and resiliency. <br/><br/> Kevin feels the water sector is inherently resilient due to the immense responsibility and pride in providing life’s most precious resource - water – to the public. He believes we will continue to strengthen our resiliency through global collaboration and embracing the ‘One Water’ concept as well as innovative technologies and practices.
+            `,
     },
     {
       img: "assets/img/team/hardeep-headshot.jpg",
@@ -54,30 +86,11 @@ export class teamMembers {
           Originally from Tanzania, Mr. Anand is a registered professional engineer in the State of Florida and holds a Bachelor of Science in Civil Engineering, a Master of Science in Civil Engineering, and a Master of Science in Management of Information Systems
           `,
     },
-    {
-      img: "assets/img/team/Debbie Griner.jpg",
-      name: "Debbie Griner, ENV SP",
-      position: "Resilience Manager",
-      org: "Miami-Dade Water and Sewer Department",
-      about: `
-          Debbie Griner has 24 years of public service, the majority of which has been with Miami-Dade County working on environmental compliance, permitting, planning, County and regional sustainability and climate change initiatives, including a role in the development of the County’s first community-wide sustainability plan and the Regional Climate Action Plan.
-          She joined the Miami-Dade County Water and Sewer Department in 2017 to lead the Resilience Program in operationalizing resilience throughout department programs.  Program priorities include continuing the successful water conservation efforts, expanding energy efficiency and renewable energy initiatives, and reducing vulnerabilities through increasing the utility’s ability to adapt more readily to acute shocks and longer-term stresses and the adoption of sustainable policies and practices.   <br/><br/>
-          Debbie serves as the Secretary on the Resilient Utility Coalition Board of Directors. She received her Bachelor of Science degree in Environmental Studies from Florida International University, with a minor in Biology.  She earned the Envision Sustainability Professional (ENV SP) designation and provides guidance on applying the rating system in infrastructure planning, design, and operation.  
-          
-          `,
-    },
+   
   ];
 
   directors = [
-    {
-      img: "assets/img/team/Kevin Carter.jpg",
-      name: "Kevin Carter",
-      position: "Assistant to the Director",
-      org: "Broward County Water & Wastewater Services",
-      about: `
-            Kevin Carter has over 28 years of South Florida Water Resources experience from the Northern Everglades watershed, the Biscayne Aquifer, and the Gulf Stream. For the last 5 years, Kevin has worked with the Broward County Water and Wastewater Services where he primarily focuses on legislative and intergovernmental affairs as well as special projects such as grants. <br/><br/> He is currently the Florida Section of the American Water Works Association Water Utility Council Chairperson, Florida Water Environment Association (FWEA) Utility Council Board of Director, FWEA Water Resources, Reuse, and Resiliency (WR3) Committee Vice Chairperson, Florida Water and Wastewater Response Network Board Member and Resilient Utilities Coalition Board Member. He is past Florida Stormwater Association Vice President and South Florida Association of Environmental Professionals President. Kevin teaches Environmental Policy and Regulation at Broward College where he is an adjunct professor. He frequently gives presentations and lectures on water utilities and resiliency. <br/><br/> Kevin feels the water sector is inherently resilient due to the immense responsibility and pride in providing life’s most precious resource - water – to the public. He believes we will continue to strengthen our resiliency through global collaboration and embracing the ‘One Water’ concept as well as innovative technologies and practices.
-            `,
-    },
+  
     {
       img: "assets/img/team/Frias.jpg",
       name: "Rafael E. Frias III, P.E.",
@@ -87,15 +100,7 @@ export class teamMembers {
             Rafael Frias is an Associate Vice President and Regional Manager with the global water business of Black & Veatch Corporation, responsible for its commercial operations in Florida and the Caribbean.In this role, he specializes in the management of water resources projects in the United States and internationally.  <br/><br/> With over 20 years of experience, Rafael established Black & Veatch’s South Florida operations in 2010 and is currently delivering multiple infrastructure projects in Miami-Dade, Broward, Palm Beach and Monroe Counties, as well as in Puerto Rico. He is the Past- President of the American Water Resources Association (AWRA), a 2,000-member national association that focuses on the comprehensive management of our water resources.
             `,
     },
-    {
-      img: "assets/img/team/Juan Oquendo.jpg",
-      name: "Juan Oquendo, PE",
-      position: "Client Service Manager, Vice President",
-      org: "Carollo Engineers",
-      about: `
-            Juan Oquendo is a Vice President with Carollo Engineers, Inc. and serves as a Senior Client Services Manager in the South Florida region and Business Development Manager for Carollo’s Florida Operation. His project experience covers a broad range of civil and environmental engineering projects. <br/><br/> His municipal and public works experience includes planning, design, and construction services for water and wastewater collection, conveyance, and treatment facilities. He also has extensive experience in biosolids management, storm water, and climate resiliency.
-                `,
-    },
+  
     {
       img: "assets/img/team/Andres Gomez.jpg",
       name: "Andres Gomez Bonvecchio",
