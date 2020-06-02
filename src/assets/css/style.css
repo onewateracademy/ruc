@@ -2856,13 +2856,12 @@ ul {
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
-  /* line 61, E:/166 Basketball/Basketball_Template/sass/_about.scss */
+/* @media only screen and (min-width: 1200px) and (max-width: 1440px) {
   .about_part .about_text {
     padding-left: 80px;
     margin-right: -125px;
   }
-}
+} */
 
 /* line 80, E:/166 Basketball/Basketball_Template/sass/_about.scss */
 .about_part .about_text h4 {

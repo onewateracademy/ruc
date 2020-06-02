@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { ModalFunctions } from "../common/modal-functions";
-import { EventsData } from "./events-data";
+import { EventsData } from "../data/events-data";
 declare var $:any;
 
 @Component({

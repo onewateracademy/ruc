@@ -1,33 +1,4 @@
-.header_content {
-  min-height: 80vh;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
 
-  .header_img {
-    position: absolute;
-    top: 0;
-    right: 0rem;
-    width: 75%;
-    height: 100%;
-    background-image: linear-gradient(to right, #0e0c87d5, #0e0c8793),
-      url(/assets/img/circle_bg1.png);
-    background-size: cover;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 15rem;
-    border-top-left-radius: 0;
-  }
-
-  .big_heading {
-    margin-bottom: 4rem;
-    margin-right: 4vw;
-    font-size: 3rem;
-    font-weight: 800;
-    letter-spacing: -0.08rem;
-    color: #fff;
-  }
-}
 .grid_section{
     position: relative;
     margin: 0;
@@ -41,7 +12,7 @@
     padding: 5rem 0 3rem;
     background-image:linear-gradient(to bottom right, #0e0c87d5, #0e0c8793) , url(/assets/img/heading_bg2.png);
     border-top-right-radius: 15rem;
-    border-bottom-right-radius: 0;
+    border-bottom-right-radius: 6rem;
   }
 
 .big_heading {
@@ -68,6 +39,17 @@
   height: 14rem;
   top: 10%;
   left: 15%;
+}
+
+.cover-photo{
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  img{
+    object-fit: cover;
+    object-position: top center;
+  }
 }
 
 .visioning_section{
@@ -162,7 +144,7 @@
  }
 
  .meet_our_team{
-   margin: 2rem 0;
+   margin: 2rem 0 0;
    min-height: 75vh;
  }
 .team_img{
@@ -184,7 +166,7 @@
   background-size: cover;
   background-position: bottom right;
   background-repeat: no-repeat;
-  border-bottom-left-radius: 6rem;
+  border-bottom-left-radius: 0;
   border-top-left-radius: 6rem;
 
 
@@ -276,7 +258,6 @@
 .executives{
   border-top-left-radius: 8em;
   padding: 3rem 0 0;
-  margin-top: 2rem;
 }
 
 .board_of_directors{
@@ -313,6 +294,23 @@
     list-style: none;
     color: #160e78;
     font-size:1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.img-card{
+  margin:2rem 1rem;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  height: 150px;
+
+  img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 }
 

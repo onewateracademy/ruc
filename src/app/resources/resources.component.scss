@@ -74,8 +74,7 @@
     img{
         object-fit: cover;
         object-position: center;
-        height: 100%;
-        width: auto;
+        width: 100%;
     }
 }
 .event_details{
@@ -107,6 +106,16 @@
     padding: 0.5rem 0.8rem;
     margin: 1rem 0 0.8rem;
     border-radius: 4px;
+}
+
+.top_events{
+    .event_img{
+        img{
+            height: 100%;
+            width: auto
+        }
+        
+    }
 }
 
 
