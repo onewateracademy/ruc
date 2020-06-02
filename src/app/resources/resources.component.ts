@@ -11,17 +11,16 @@ declare var $:any;
 export class ResourcesComponent implements OnInit {
   topevents = [];
   pastevents = [];
+  currentPDFs = [];
+  currentPPTs = [];
+  currentIMGs = [];
   currentEvent: {
     topic:'',
     date:'',
     speakers:[],
     desc:'',
-    //img:null,
+    thumbnail:''
   };
-  currentPDFs = [];
-  currentPPTs = [];
-  currentIMGs = [];
-
   constructor(public modal: ModalFunctions, public eventsData: EventsData) {}
 
   ngOnInit() {
