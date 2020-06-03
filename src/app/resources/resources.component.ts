@@ -55,4 +55,6 @@ export class ResourcesComponent implements OnInit {
     });
     //console.log(this.currentPDFs,this.currentPPTs);
   }
+
+  
 }

@@ -52,6 +52,29 @@
     
   }
 
+  .border-wrap{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding: 1.5rem 0;
+
+    h5{
+      margin-bottom: 1.5rem;
+    }
+  }
+  .doc-btn{
+    border: 1.5px solid #160e78;
+    background-color: transparent;
+    margin: 0.5rem 0;
+    width: 100%;
+    color: #160e78;
+    font-weight: 600;
+
+    &:hover{
+      background-color: #8dbd3a;
+      color: #fff !important;
+    }
+  }
+
   .iframe-container{
     z-index: 2;
     box-shadow: 1px 6px 8px 0px rgba(0, 0, 0, 0.25);
@@ -140,7 +163,6 @@
           width: 100%;
           margin: 0;
           border-radius: 4px;
-          max-height: 50vh;
           object-position: top center;
           object-fit: cover;
       }
@@ -182,7 +204,7 @@
   @media screen and (max-width:991px){
     .sub_heading{display: none;}
     .header_content{
-      min-height: 50vh;
+      min-height: 35vh;
     }
     .d-mobile-none{
       display: none;
@@ -197,7 +219,7 @@
       margin-left: 0;
   }
   .header_content{
-    height: 75vh;
+    height: 50vh;
     .header_img{
       width: 100%;
     }

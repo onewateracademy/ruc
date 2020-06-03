@@ -1,4 +1,6 @@
 
+@import '../resources/resources.component.scss';
+
 .grid_section{
     position: relative;
     margin: 0;
@@ -379,7 +381,7 @@
 
 @media screen and (max-width:576px){
   .header_content{
-    height: 75vh;
+    height: 50vh;
     .header_img{
       width: 100%;
     }

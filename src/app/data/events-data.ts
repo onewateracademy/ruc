@@ -28,6 +28,11 @@ export class EventsData {
           url: "assets/resources/ruc_summit/6 Organizing Goals.JPG",
           type: "img",
         },
+        {
+          name: "2018 Summit Program",
+          url: "assets/resources/ruc_summit/2018 Summit Program.pdf",
+          type: "img",
+        },
       ],
     },
   ];

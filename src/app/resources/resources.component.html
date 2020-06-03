@@ -98,8 +98,8 @@
                 <!-- <div class="l-img" >
                   <img [src]="currentEvent?.thumbnail" alt="" >
                 </div>  -->
-                <div class="l-img" >
-                <img [src]="currentEvent.thumbnail" alt="">
+                <div class="l-img">
+                <img [src]="currentEvent.thumbnail" alt="" #lbImg>
               </div>
               </div>
             </div>
@@ -154,7 +154,7 @@
                   </ul>
                 </div>
                 <div class="files" *ngIf="currentIMGs?.length">
-                  <h2>Images</h2>
+                  <h2>Images and Resources</h2>
                   <ul>
                     <li *ngFor="let item of currentIMGs">
                       <a [href]="item.url" target="_blank">
