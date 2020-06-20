@@ -12,6 +12,7 @@
     z-index: 10;
     font-size: 3rem;
     letter-spacing: -0.08rem;
+    margin-bottom: 3rem;
   }
 
   .files{
@@ -42,9 +43,7 @@
         padding-left: 1.2rem;
       }
   }
-.events_box{
-    margin: 3rem 0;
-}
+
 .speaker{
     color: #160e78;
     font-weight: 700;
@@ -109,6 +108,7 @@
 }
 
 .top_events{
+    padding: 2rem 0;
     .event_img{
         img{
             height: 100%;

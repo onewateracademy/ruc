@@ -19,8 +19,84 @@ export class EventsData {
       thumbnail: "assets/resources/ruc_summit/ruc-submmit-thumb.jpg",
       files: [
         {
-          name: "RUC Vision and Mission Slides",
-          url: "assets/resources/ruc_summit/RUC Vision and Mission Slides.pptx",
+          name: "B. Sheinbaum - Water Security is National Security",
+          url: "https://www.dropbox.com/scl/fi/loo2h316r4dp5fbekbtmt/B.-Sheinbaum-Water-Security-is-National-Security.pptx?dl=0&rlkey=nputya42i61bpa5phwyue5w0s",
+          type: "ppt",
+        },
+
+        {
+          name: "C. Tamayo - Miami Beach",
+          url: "https://www.dropbox.com/s/7bnrbqrfa10u3st/C.%20Tamayo%20-%20Miami%20Beach.pdf?dl=0",
+          type: "ppt",
+        },
+        {
+          name: "Garcia - The C-51 Reservoir Project",
+          url: "https://www.dropbox.com/scl/fi/5rqx06nfegrmbhumpg4fj/Garcia-The-C-51-Reservoir-Project.pptx?dl=0&rlkey=m9s8k19dnkv7jif775rkwvz3v",
+          type: "ppt",
+        },
+        {
+          name: "J. Barksdale - Metropolitan Cities Accepting the Challenge",
+          url: "https://www.dropbox.com/s/ti6alw64cgp4c7j/J.%20Barksdale%20-%20Metropolitan%20Cities%20Accepting%20the%20Challenge.pdf?dl=0",
+          type: "ppt",
+        },
+        {
+          name: "J. Kassel - Cybersecurity",
+          url: "https://www.dropbox.com/scl/fi/ti4tltneyitpx58lh9v47/J.-Kassel-Cybersecurity.pptx?dl=0&rlkey=adjl6r7ys7ck5ww3vrpk76x3v",
+          type: "ppt",
+        },
+        {
+          name: "J. Murin - One Water Blueprint",
+          url: "https://www.dropbox.com/scl/fi/hwoa61cbjzf3vobeftdk2/J.-Murin-One-Water-Blueprint.pptx?dl=0&rlkey=pyxloufmthotwq1b1r5lenel0",
+          type: "ppt",
+        },
+        {
+          name: "K. Dragash - Leveraging Merged Hydraulic Models",
+          url: "https://www.dropbox.com/scl/fi/mjzfs4njg38oxxzxrbihz/K.-Dragash-Leveraging-Merged-Hydraulic-Models.pptx?dl=0&rlkey=me3kq6ch7rue4d15w2ez70tw4",
+          type: "ppt",
+        },
+        {
+          name: "K. Keiser - Managing Cybersecurity Risk",
+          url: "https://www.dropbox.com/scl/fi/s5jji6moobym5xwql155y/K.-Keiser-Managing-Cybersecurity-Risk.pptx?dl=0&rlkey=9spr6legp2ejymyqnrnmqn936",
+          type: "ppt",
+        },
+        {
+          name: "L. Eshed - NDMA Free Water Reuse Process",
+          url: "https://www.dropbox.com/scl/fi/eh0lxeev4mkt3v57psrmz/L.-Eshed-NDMA-Free-Water-Reuse-Process.pptx?dl=0&rlkey=d6yxcr684v26eit7yxd56j6ho",
+          type: "ppt",
+        },
+        {
+          name: "L. Patton - Attribution Science",
+          url: "https://www.dropbox.com/scl/fi/kldnb45ok409nlvr035ud/L.-Patton-Attribution-Science.pptx?dl=0&rlkey=f0tgvwviytasrkudstq7j6bt6",
+          type: "ppt",
+        },
+        {
+          name: "M. Markus - Financing Investments in Resiliency",
+          url: "https://www.dropbox.com/scl/fi/5xoehc1r90pg7fi0fb164/M.-Markus-Financing-Investments-in-Resiliency.pptx?dl=0&rlkey=q7trlswhk6ycsc0o1dsy04mk1",
+          type: "ppt",
+        },
+        {
+          name: "M. Schmidt - Salem Climate Change Adaptation Plan",
+          url: "https://www.dropbox.com/scl/fi/v04h8rb2fs3yajgxw2186/M.-Schmidt-Salem-Climate-Change-Adaptation-Plan.pptx?dl=0&rlkey=l1ljibgrrmxyixpctt3iyutup",
+          type: "ppt",
+        },
+        {
+          name: "N. Kaiser - Embracing Innovation",
+          url: "https://www.dropbox.com/scl/fi/yc1b9ek91b338thnoqsq3/N.-Kaiser-Embracing-Innovation.pptx?dl=0&rlkey=1sn40vgwwjfz4sogd10tf2692",
+          type: "ppt",
+        },
+        {
+          name: "P. Gayle - Lessons Learned",
+          url: "https://www.dropbox.com/scl/fi/ngkmhy4uiv3fh1g9x832v/P.-Gayle-Lessons-Learned.pptx?dl=0&rlkey=0d1zg63nzn6hg577eleynb692",
+          type: "ppt",
+        },
+        {
+          name: "R. Brotchie - Planning for Deep Uncertainty",
+          url: "https://www.dropbox.com/s/d3rdvkzd37k8rmn/R.%20Brotchie%20-%20Planning%20for%20Deep%20Uncertainty.pdf?dl=0",
+          type: "ppt",
+        },
+        {
+          name: "S. Siddique - NYCDEP Operational and Resiliency Planning",
+          url: "https://www.dropbox.com/scl/fi/6wdi6hy5edoesqdsjme86/S.-Siddique-NYCDEP-Operational-and-Resiliency-Planning.pptx?dl=0&rlkey=y0co5l5y2okwcqvlc6vwwtv0z",
           type: "ppt",
         },
         {

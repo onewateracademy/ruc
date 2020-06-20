@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 declare var $: any;
 
 
@@ -9,6 +9,7 @@ declare var $: any;
 })
 export class NavbarComponent implements OnInit {
 
+  @Input() home: Boolean = false;
   constructor() { }
 
   ngOnInit() {
